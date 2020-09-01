@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="container">
+        <!-- Header -->
+        <header>
+            <a href="#" class="logo">
+                <img src="images/logo.png">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="icon" onClick="toggle()">
+                <i class="fa fa-bars fa-2x"></i>
+            </a>
+        </header>
+        <!-- Main -->
+        <main>
+            <div class="row">
+                <div class="col-left">
+                    <h4>The Quote Of The Day</h4>
+                    <h2>Update Your Siklls Not Your Resume</h2>
+                </div>
+                <div class="col-right">
+                    <div class="slider">
+                        <img src="images/pic1.jpg">
+                    </div>
+                    <div class="btns">
+                        <div class="btn">
+                            <img src="images/pic1.jpg" onClick="slider('images/pic1.jpg')">
+                        </div>
+                        <div class="btn">
+                            <img src="images/pic2.jpg" onClick="slider('images/pic2.jpg')">
+                        </div>
+                        <div class="btn">
+                            <img src="images/pic3.jpg" onClick="slider('images/pic3.jpg')">
+                        </div>
+                        <div class="btn">
+                            <img src="images/pic4.jpg" onClick="slider('images/pic4.jpg')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
